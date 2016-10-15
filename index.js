@@ -1,3 +1,2 @@
-var server = require("./server");
-
+var server = require("./config/server");
 server.start();
