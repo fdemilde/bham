@@ -1,7 +1,12 @@
 var http = require('http');
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.write('Hello World');
-  res.end();
-}).listen(8080, 'localhost');
+function start() {
+    function onRequest(req, res) {
+        res.writeHead(200, {
+            'Content-Type': 'text/plain'
+        });
+        res.write('Hello World');
+        res.end();
+    }
+    http.createServer(onRequest).listen(8080, 'localhost');
+}
