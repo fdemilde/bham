@@ -1,4 +1,4 @@
-var server = require("./lib/server");
+/* var server = require("./lib/server");
 var router = require("./lib/router");
 var requestHandlers = require("./lib/requestHandlers");
 
@@ -8,4 +8,11 @@ handle["/"] = requestHandlers.start;
 handle["/start"] = requestHandlers.start;
 handle["/upload"] = requestHandlers.upload;
 
-server.start(router.route, handle);
+server.start(router.route, handle); */
+
+var express = require('express');
+var app = express();
+
+app.use(express.static(__dirname + '/public'));
+
+app.listen(process.env.PORT || 8080);
