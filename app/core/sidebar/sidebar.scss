@@ -1,0 +1,80 @@
+@import './app/sass/helpers/variables';
+
+.toggle-box {
+  position: fixed;
+  top: 30%;
+  left: 0;
+  width: 50px;
+  height: 100px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: $primary-color;
+  z-index: 2;
+
+  &:hover {
+    background-color: $secondary-color;
+  }
+
+  span {
+    display: block;
+    position: relative;
+    top: 33%;
+    width: 50%;
+    height: 3.5px;
+    margin: 6px 0 0 11px;
+    border-radius: 2px;
+    background: $white;
+  }
+}
+
+.sidebar-wrapper {
+  position: fixed;
+  left: -325px;
+  width: 325px;
+  height: 100%;
+  padding: 20px;
+  background-color: rgba($primary-color, .95);
+  color: $white;
+  z-index: 2;
+
+  img {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  }
+
+  .contact {
+    margin: 0 auto;
+
+    h4 {
+      color: $white;
+    }
+
+    a {
+      display: block;
+      padding-right: 10px;
+      color: $white;
+    }
+  }
+
+  &.open {
+    left: 0;
+
+    .toggle-box {
+      left: 325px;
+    }
+  }
+
+  &.open,
+  &.closed,
+  .toggle-box {
+    transition: all .6s;
+  }
+}
+
+@media (max-width: 640px) {
+  .sidebar-wrapper,
+  .toggle-box {
+    display: none;
+  }
+}

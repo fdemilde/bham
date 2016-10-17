@@ -1,0 +1,18 @@
+{
+  "title": "Book Cover Designs",
+  "images": [
+        "assets/images/book-cover/book-cover.0.jpg",
+        "assets/images/book-cover/book-cover.1.jpg",
+        "assets/images/book-cover/book-cover.2.jpg",
+        "assets/images/book-cover/book-cover.3.jpg",
+        "assets/images/book-cover/book-cover.4.jpg",
+        "assets/images/book-cover/book-cover.5.jpg",
+        "assets/images/book-cover/book-cover.6.jpg",
+        "assets/images/book-cover/book-cover.7.jpg",
+        "assets/images/book-cover/book-cover.8.jpg",
+        "assets/images/book-cover/book-cover.9.jpg",
+        "assets/images/book-cover/book-cover.10.jpg",
+        "assets/images/book-cover/book-cover.11.jpg"
+    ],
+  "description": "A series of reimaginged book-covers for old classsics. There are three sets of five covers each with their own style treatment. The first set is single symbols describing the book, The second set is imagery and text, and the third being strictly text."
+  }

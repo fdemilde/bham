@@ -1,0 +1,70 @@
+@import './app/sass/helpers/variables';
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+.thumbnail-container {
+  flex: 100%;
+  margin: 1rem 1rem 0;
+}
+
+.thumbnail-box {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+
+  .thumbnail {
+    width: 100%;
+    border: 1px $image-border solid;
+  }
+
+  .text {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background-color: rgba($primary-color, .8);
+  }
+
+  &:hover .text {
+    display: block;
+  }
+}
+
+h5,
+h6 {
+  color: $white;
+}
+
+@media all and (min-width: 400px) {
+  main {
+    margin: 0 .5rem;
+  }
+
+  .thumbnail-container {
+    flex-basis: calc(50% - 2rem);
+    margin: 1rem .5rem 0;
+  }
+}
+
+
+@media all and (min-width: 600px) {
+  main {
+    margin: 0;
+  }
+
+  .thumbnail-container {
+    flex-basis: 25%;
+    max-width: 200px;
+  }
+}

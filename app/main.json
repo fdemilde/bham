@@ -1,0 +1,128 @@
+[
+  {
+    "title": "The Upper Crust",
+    "id": "upper-crust",
+    "year": "2016",
+    "category": ["Design", "Web Design"],
+    "thumbnail": "thumbnails/upper-crust.jpg"
+  },
+  {
+    "title": "Bubble Me 5k Fun Run",
+    "id": "bubble-me",
+    "year": "2016",
+    "category": ["Design", "Web Design"],
+    "thumbnail": "thumbnails/bubble-me.jpg"
+  },
+  {
+    "title": "420 Windy City",
+    "id": "420",
+    "year": "2015",
+    "category": "Web Design",
+    "thumbnail": "thumbnails/420.jpg"
+  },
+  {
+    "title": "Debra Dobs Realty Branding",
+    "id": "dobs-brand",
+    "year": "2014",
+    "category": "Design",
+    "thumbnail": "thumbnails/dobs-brand.jpg"
+  },
+  {
+    "title": "Eat Right Editorial",
+    "id": "eat-right",
+    "year": "2013",
+    "category": "Design",
+    "thumbnail": "thumbnails/eat-right.jpg"
+  },
+  {
+    "title": "Book Cover Designs",
+    "id": "book-cover",
+    "year": "2013",
+    "category": "Design",
+    "thumbnail": "thumbnails/book-cover.jpg"
+  },
+  {
+    "title": "Mary-Arrchie Theatre Poster Design",
+    "id": "mary-arrchie",
+    "year": "2013",
+    "category": "Design",
+    "thumbnail": "thumbnails/mary-arrchie.jpg"
+  },
+  {
+    "title": "Revolution Theatre Branding",
+    "id": "revolution",
+    "year": "2012",
+    "category": ["Design", "Web Design"],
+    "thumbnail": "thumbnails/revolution.jpg"
+  },
+  {
+    "title": "Food Not Bombs Pilsen",
+    "id": "fnbs-pilsen",
+    "year": "2013",
+    "category": ["Design", "Web Design"],
+    "thumbnail": "thumbnails/fnbs-pilsen.jpg"
+  },
+  {
+    "title": "Organs",
+    "id": "organs",
+    "year": "2013",
+    "category": "Design",
+    "thumbnail": "thumbnails/organs.jpg"
+  },
+  {
+    "title": "Camping",
+    "id": "camping",
+    "year": "2013",
+    "category": "Photography",
+    "thumbnail": "thumbnails/camping.jpg"
+  },
+  {
+    "title": "Damen Silos",
+    "id": "damen-silos",
+    "year": "2013",
+    "category": "Photography",
+    "thumbnail": "thumbnails/damen-silos.jpg"
+  },
+  {
+    "title": "Logan Square",
+    "id": "logan-square",
+    "year": "2013",
+    "category": "Photography",
+    "thumbnail": "thumbnails/logan-square.jpg"
+  },
+  {
+      "title": "Miscellaneous",
+      "id": "misc",
+      "category": "Photography",
+      "year": "2012",
+      "thumbnail": "thumbnails/misc.jpg"
+  },
+  {
+    "title": "Tortoise Site",
+    "id": "tortoise",
+    "year": "2012",
+    "category": "Web Design",
+    "thumbnail": "thumbnails/tortoise.jpg"
+  },
+  {
+    "title": "Still Lifes",
+    "id": "still-lifes",
+    "category": "Photography",
+    "year": "2012",
+    "thumbnail": "thumbnails/still-lifes.jpg"
+  },
+  {
+    "title": "Portraits",
+    "id": "portraits",
+    "category": "Photography",
+    "year": "2012",
+    "thumbnail": "thumbnails/portraits.jpg"
+  },
+  {
+    "title": "35th Street Beach",
+    "id": "35th-beach",
+    "year": "2012",
+    "category": "Photography",
+    "thumbnail": "thumbnails/35th-beach.jpg"
+  }
+]

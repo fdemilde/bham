@@ -1,0 +1,10 @@
+<div class="thumbnail-container" ng-repeat="m in main.content | orderBy:dateCreated | filter:categoryFilter:true">
+  <div class="thumbnail-box">
+    <a ui-sref="gallery({::m.id})"></a>
+    <img class="thumbnail" ng-src="res/images/{{::m.thumbnail}}" alt="{{::m.title}}">
+    <div class="text">
+      <h5>{{::m.title}}</h5>
+      <h6>{{::m.year}}</h6>
+    </div>
+  </div>
+</div>
