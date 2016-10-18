@@ -13,7 +13,7 @@
     "test": "",
     "clean-npm": "rimraf node_modules && npm cache clean",
     "start": "node node_modules/.bin/webpack-dev-server --content-base app --hot",
-    "start-win": "node_modules\\.bin\\webpack-dev-server.cmd -—content-base app --hot"
+    "build": "NODE_ENV=production node node_modules/.bin/webpack-dev-server --content-base app"
   },
   "dependencies": {
     "angular": "^1.5.8",
