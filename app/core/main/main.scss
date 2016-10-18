@@ -3,7 +3,6 @@
 main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 3rem;
@@ -47,10 +46,6 @@ h6 {
 }
 
 @media all and (min-width: 400px) {
-  main {
-    margin: 0 .5rem;
-  }
-
   .thumbnail-container {
     flex-basis: calc(50% - 2rem);
     margin: 1rem .5rem 0;
@@ -59,10 +54,6 @@ h6 {
 
 
 @media all and (min-width: 600px) {
-  main {
-    margin: 0;
-  }
-
   .thumbnail-container {
     flex-basis: 25%;
     max-width: 200px;

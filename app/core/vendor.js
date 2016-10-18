@@ -9,6 +9,7 @@ module.exports = function () {
   require('angular-sanitize');
   require('angular-touch');
   require('angular-ui-router');
+  require('oclazyload');
 
   /* Misc JS Files */
 };

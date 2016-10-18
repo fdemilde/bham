@@ -1,15 +1,15 @@
 <header>
   <h1 class="main-logo">
-    <a href="/">
+    <a ui-sref="home" ng-click="categoryFilter = {}">
       <span>Bham Designs</span>
     </a>
   </h1>
   <nav>
     <ul>
-      <li><a href="">Design</a></li>
-      <li><a href="">Web Design</a></li>
-      <li><a href="">Photography</a></li>
-      <li><a href="">Fine Art</a></li>
+      <li><a ui-sref="home" ng-click="categoryFilter = {category: 'Design'}">Design</a></li>
+      <li><a ui-sref="home" ng-click="categoryFilter = {category: 'Web Design'}">Web Design</a></li>
+      <li><a ui-sref="home" ng-click="categoryFilter = {category: 'Photography'}">Photography</a></li>
+      <li><a ui-sref="home" ng-click="categoryFilter = {category: 'Fine Arts'}">Fine Art</a></li>
     </ul>
   </nav>
 </header>
