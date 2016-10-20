@@ -10,6 +10,4 @@ module.exports = function () {
   require('angular-touch');
   require('angular-ui-router');
   require('oclazyload');
-
-  /* Misc JS Files */
 };

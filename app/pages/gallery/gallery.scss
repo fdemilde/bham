@@ -1,0 +1,130 @@
+@import 'app/sass/helpers/variables';
+
+i.fa.fa-angle-left,
+i.fa.fa-angle-right {
+  position: absolute;
+  top: 230px;
+  font-size: 3em;
+
+  &:hover {
+    color: $secondary-color;
+  }
+}
+
+i.fa.fa-angle-left {
+  left: 40px;
+}
+
+i.fa.fa-angle-right {
+  right: 40px;
+}
+
+.gallery-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.img-container {
+  margin: 0 auto;
+  padding: 4em 0 3em;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  img {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 0 10px;
+    vertical-align: bottom;
+  }
+}
+
+#image-lightbox {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba($primary-color, .9);
+  z-index: 1000;
+
+  &.view-add,
+  &.view-remove {
+    transition: all .5s;
+  }
+
+  &.view-add-active {
+    display: block;
+  }
+
+  &.view {
+    display: block;
+  }
+
+  .exitbox {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: 3px $white solid;
+    border-radius: 50px;
+    z-index: 1000;
+
+    i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: $white;
+      font-size: 2em;
+    }
+  }
+}
+
+.img-single {
+  position: fixed;
+  top: 25px;
+  left: 50%;
+  max-height: 500px;
+  transform: translate(-50%);
+}
+
+.img-lightbox-container {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  width: 80%;
+  height: 100px;
+  transform: translate(-50%);
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  img {
+    height: 100px;
+    margin: 0 5px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+// Gallery Information
+
+.text-container {
+  height: 100%;
+  padding: 20px;
+  background-color: $primary-color-light;
+
+  h1,
+  p {
+    color: $white;
+  }
+}

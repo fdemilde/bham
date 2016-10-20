@@ -1,5 +1,6 @@
 'use strict';
 
 module.exports = angular.module('app', [
-  require('core/layout').name
+  require('pages/home/home.routing').name,
+  require('partials/layout').name
 ]);

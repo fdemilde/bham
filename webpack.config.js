@@ -1,15 +1,16 @@
 'use strict';
 const webpack = require('webpack'),
   path = require('path'),
-  APP = __dirname + '/app';
+  app = __dirname + '/app',
+  pub = __dirname + '/public';
 
 module.exports = {
-  context: APP,
+  context: app,
   entry: {
-    app: ['webpack/hot/dev-server', './core/bootstrap.js']
+    app: ['./core/bootstrap.js']
   },
   output: {
-    path: APP,
+    path: pub,
     filename: 'bundle.js'
   },
   module: {
@@ -22,7 +23,7 @@ module.exports = {
     }, {
       test: /\.js$/,
       loader: 'ng-annotate!babel?presets[]=es2015!jshint',
-      exclude: /node_modules|bower_components/
+      exclude: /node_modules/
     }, {
       test: /\.(woff|woff2|ttf|eot|svg)(\?]?.*)?$/,
       loader: 'file-loader?name=res/[name].[ext]?[hash]'
@@ -41,7 +42,7 @@ module.exports = {
     }]
   },
   resolve: {
-    root: APP
+    root: app
   },
   plugins: [
     new webpack.DefinePlugin({

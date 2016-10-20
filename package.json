@@ -12,8 +12,8 @@
   "scripts": {
     "test": "",
     "clean-npm": "rimraf node_modules && npm cache clean",
-    "start": "node node_modules/.bin/webpack-dev-server --content-base app --hot",
-    "build": "NODE_ENV=production node node_modules/.bin/webpack-dev-server --content-base app"
+    "start": "webpack-dev-server --content-base public --hot",
+    "build": "NODE_ENV=production node node_modules/.bin/webpack-dev-server --content-base public"
   },
   "dependencies": {
     "angular": "^1.5.8",
