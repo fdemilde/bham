@@ -5,8 +5,10 @@ class HomeCtrl {
 }
 
 module.exports = () => {
+  require('./home.scss');
   return {
     controller: HomeCtrl,
     controllerAs: 'home',
+    template: require('./home.html')
   };
 };
